@@ -1,0 +1,40 @@
+[GIN-debug] GET    /api/v1/ping              --> web-api/internal/api/controllers.(*CommonController).Ping-fm (4 handlers)
+[GIN-debug] GET    /api/v1/rp/reports        --> web-api/internal/api/controllers.(*ReportController).GetReport-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/rpbycode       --> web-api/internal/api/controllers.(*ReportController).GetReportByRpcode-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/insertreport1  --> web-api/internal/api/controllers.(*ReportController).InsertFirstReport-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/checkfeedback  --> web-api/internal/api/controllers.(*ReportController).CheckRPCodeAndGetReports-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/sendfeedback   --> web-api/internal/api/controllers.(*ReportController).SendReport-fm (4 handlers)
+[GIN-debug] PATCH  /api/v1/rp/updatenote     --> web-api/internal/api/controllers.(*ReportController).UpdateNote-fm (4 handlers)
+[GIN-debug] PATCH  /api/v1/rp/iscompleted    --> web-api/internal/api/controllers.(*ReportController).UpdateIsCompleted-fm (4 handlers)
+[GIN-debug] GET    /api/v1/rp/departments    --> web-api/internal/api/controllers.(*ReportController).GetDepartments-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/sendemail      --> web-api/internal/api/controllers.(*ReportController).SendEmail-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/admin/login    --> web-api/internal/api/controllers.(*AdminController).Login-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/admin/isanswered --> web-api/internal/api/controllers.(*AdminController).GetReportByIsAnsweredAndRpid-fm (4 handlers)
+[GIN-debug] POST   /api/v1/rp/admin/sendanswer --> web-api/internal/api/controllers.(*AdminController).SendAnswer-fm (4 handlers)
+[GIN-debug] PATCH  /api/v1/rp/admin/updateanswer --> web-api/internal/api/controllers.(*AdminController).UpdateAnswer-fm (4 handlers)
+[GIN-debug] PATCH  /api/v1/rp/admin/updaterptype --> web-api/internal/api/controllers.(*AdminController).UpdateRPTypes-fm (4 handlers)
+[GIN-debug] GET    /api/v1/rp/admin/rptypes  --> web-api/internal/api/controllers.(*AdminController).GetRPTypes-fm (4 handlers)
+[GIN-debug] GET    /api/v1/rp/admin/excelbydepartments --> web-api/internal/api/controllers.(*AdminController).ExcelByDepartments-fm (4 handlers)
+[GIN-debug] GET    /api/v1/rp/admin/excelbyreporttypes --> web-api/internal/api/controllers.(*AdminController).ExcelByReportTypes-fm (4 handlers)
+[GIN-debug] GET    /api/v1/book/getbook      --> web-api/internal/api/controllers.(*BookController).GetBook-fm (4 handlers)
+[GIN-debug] GET    /api/v1/book/oderstatsbook --> web-api/internal/api/controllers.(*BookController).Oderstat-fm (4 handlers)
+[GIN-debug] POST   /api/v1/book/Addbook      --> web-api/internal/api/controllers.(*BookController).AddBook-fm (4 handlers)
+[GIN-debug] DELETE /api/v1/book/Deletebook   --> web-api/internal/api/controllers.(*BookController).DeleteBook-fm (4 handlers)
+[GIN-debug] PUT    /api/v1/book/Updatebook   --> web-api/internal/api/controllers.(*BookController).UpdateBook-fm (4 handlers)
+[GIN-debug] POST   /api/v1/book/Oderbook     --> web-api/internal/api/controllers.(*BookController).OderBook-fm (4 handlers)
+[GIN-debug] POST   /api/v1/book/Searchbook   --> web-api/internal/api/controllers.(*BookController).SearchBook-fm (4 handlers)
+[GIN-debug] POST   /api/v1/book/register     --> web-api/internal/api/controllers.(*BookController).Register-fm (4 handlers)
+[GIN-debug] POST   /api/v1/book/Login        --> web-api/internal/api/controllers.(*BookController).Login-fm (4 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8081
+::1 - - [04/Feb/2025:10:55:49 +0700] "GET /api/v1/book/getbook HTTP/1.1 200 80.079ms " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:55:58 +0700] "OPTIONS /api/v1/book/Oderbook HTTP/1.1 204 0s " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:55:58 +0700] "POST /api/v1/book/Oderbook HTTP/1.1 200 251.9712ms " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:55:59 +0700] "GET /api/v1/book/getbook HTTP/1.1 200 4.3698ms " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:56:02 +0700] "GET /api/v1/book/oderstatsbook HTTP/1.1 200 54.3991ms " " PostmanRuntime/7.43.0" " "
+::1 - - [04/Feb/2025:10:57:03 +0700] "OPTIONS /api/v1/book/Oderbook HTTP/1.1 204 0s " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:57:03 +0700] "POST /api/v1/book/Oderbook HTTP/1.1 200 16.8507ms " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:57:04 +0700] "GET /api/v1/book/getbook HTTP/1.1 200 5.0871ms " " Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 Edg/132.0.0.0" " "
+::1 - - [04/Feb/2025:10:57:07 +0700] "GET /api/v1/book/oderstatsbook HTTP/1.1 200 5.2572ms " " PostmanRuntime/7.43.0" " "
+::1 - - [04/Feb/2025:11:02:06 +0700] "GET /api/v1/book/oderstatsbook HTTP/1.1 200 6.9005ms " " PostmanRuntime/7.43.0" " "

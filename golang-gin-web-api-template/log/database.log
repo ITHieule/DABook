@@ -1,0 +1,42 @@
+
+2025/02/03 10:46:08 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+[info] replacing callback `gorm:create` from C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+
+2025/02/03 10:46:08 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+[info] replacing callback `gorm:update` from C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+
+2025/02/03 10:46:34 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+[info] replacing callback `gorm:create` from C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+
+2025/02/03 10:46:34 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+[info] replacing callback `gorm:update` from C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+
+2025/02/03 10:46:49 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/pkg/database/database.go:75
+[error] failed to initialize database, got error unable to open tcp connection with host '192.168.40.104:1433': dial tcp 192.168.40.104:1433: i/o timeout
+
+2025/02/03 10:49:15 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:41
+[78.348ms] [rows:0] INSERT INTO User (Name, Email, Password) VALUES ('name', 'le01020304@gmail.com', '$2a$10$TeoCglT.kxQTRe03yb5NOORdrWRA2a6zrgui3JtI1Yz3gz6guqZ3u')
+
+2025/02/03 10:51:36 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:41 Error 1062 (23000): Duplicate entry 'le01020304@gmail.com' for key 'Email'
+[5.926ms] [rows:-] INSERT INTO User (Name, Email, Password) VALUES ('name', 'le01020304@gmail.com', '$2a$10$kIfgQPsYtN.TvFVq01izpukphXzb8rp0.mC0ewTh1JWkjaPcKX2Nu')
+
+2025/02/03 10:53:50 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:41 Error 1062 (23000): Duplicate entry 'le01020304@gmail.com' for key 'Email'
+[11.721ms] [rows:-] INSERT INTO User (Name, Email, Password) VALUES ('name', 'le01020304@gmail.com', '$2a$10$1QiHK99kYqvydtZUZ.8GoeAKQvY2Z6ue.7Jt/ocC5ebCTowD.d2iS')
+
+2025/02/03 10:58:21 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:63
+[7.096ms] [rows:1] SELECT * FROM User WHERE Email = 'le01020304@gmail.com'
+
+2025/02/03 10:58:31 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:63
+[2.707ms] [rows:1] SELECT * FROM User WHERE Email = 'le01020304@gmail.com'
+
+2025/02/03 11:00:44 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:63
+[4.196ms] [rows:1] SELECT * FROM User WHERE Email = 'le01020304@gmail.com'
+
+2025/02/03 11:00:55 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:63
+[2.153ms] [rows:1] SELECT * FROM User WHERE Email = 'le01020304@gmail.com'
+
+2025/02/03 11:01:06 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:63
+[1.766ms] [rows:1] SELECT * FROM User WHERE Email = 'le01020304@gmail.com'
+
+2025/02/03 11:02:33 C:/Users/ITHieule/Desktop/GitLab/betb/golang-gin-web-api-template/internal/api/services/userservice.go:63
+[3.869ms] [rows:1] SELECT * FROM User WHERE Email = 'le01020304@gmail.com'
